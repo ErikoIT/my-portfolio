@@ -1,0 +1,108 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat-Black';
+}
+
+/* Navbar */
+
+.navbar{
+    margin: 0% 7%;
+    padding-top: 3%;
+    font-family: 'Montserrat-light';
+}
+
+.nav-item{
+    margin: 0 15px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.navbar-brand{
+    margin-left: 5px;
+    font-size: 2rem;
+}
+
+.container{
+    margin: 3% 7%;
+}
+
+/* Title */
+
+#title{
+    background-color: #CCD6A6;
+}
+
+.title-text{
+    padding-top: 50px;
+}
+
+.title-img{
+    padding-bottom: 70px;
+}
+
+/* Work */
+
+#work{
+    background-color: #fff;
+}
+
+.skills{
+    text-align: center;
+}
+
+/* Portfolio */
+
+#portfolio{
+    background-color: #D9F8C4;
+}
+
+.card-holder{
+    text-align: center;
+    padding-top: 3%;
+}
+
+.card{
+    width: 18rem; 
+    margin: 10% 0% 10% 7%;
+}
+
+.card-img-top{
+    padding-top: 3%;
+}
+
+/* Contact */
+
+.contact-text{
+   text-align: center;
+}
+
+/* Footer */
+
+#footer{
+    background-color: #D9F8C4;
+}
+
+.contact-icons{
+    text-align: center;
+    margin: 5% 0;
+    padding: 5% 0;
+    line-height: 1.5;
+}
+
+.icon{
+    width: 50%;
+}
+
+
+@media (max-width: 1040px){
+    .title-img{
+        width: 100%;
+        align-items: center;
+    }
+    .title-text{
+        width: 100%;
+    }
+}
